@@ -1,0 +1,28 @@
+# Virtual environments
+.venv/
+venv/
+
+# Python caches
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Test, coverage, build
+.coverage
+.pytest_cache/
+dist/
+build/
+*.egg-info/
+
+# Streamlit
+.streamlit/
+
+# Cache directory for analyzer
+cache/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+

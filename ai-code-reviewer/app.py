@@ -65,7 +65,7 @@ def analyze_codebase(upload_type, uploaded_file, github_url, folder_path, api_ke
     with st.spinner("Analyzing code..."):
         client = OpenRouterClient(api_key)
         analyzer = CodeAnalyzer(openrouter_client=client)
-        results = analyzer.analyze_codebase(files)
+        results = analyzer.analyze_codebase(files, analysis_types)
 
     display_results(results)
 
