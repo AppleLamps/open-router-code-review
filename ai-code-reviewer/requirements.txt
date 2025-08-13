@@ -13,4 +13,5 @@ tree-sitter-java>=0.20.0
 tree-sitter-cpp>=0.20.0
 tree-sitter-go>=0.20.0
 tree-sitter-rust>=0.20.0
+pytest>=7.4.0
 
