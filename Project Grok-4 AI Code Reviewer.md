@@ -2,7 +2,7 @@
 
 ## 🎯 Project Overview
 
-**Goal**: Create the most comprehensive AI code reviewer using OpenRouter's x-ai/grok-4 model with a Streamlit interface that can analyze entire codebases for improvements, security flaws, network vulnerabilities, and best practices.
+**Goal**: Create the most comprehensive AI code reviewer using OpenRouter's moonshotai/kimi-k2 model with a Streamlit interface that can analyze entire codebases for improvements, security flaws, network vulnerabilities, and best practices.
 
 ## 🏗️ Architecture Overview
 
@@ -115,7 +115,7 @@ class OpenRouterClient:
             base_url="https://openrouter.ai/api/v1",
             api_key=api_key,
         )
-        self.model = "x-ai/grok-4"  # Using Grok-4 as specified
+        self.model = "moonshotai/kimi-k2"  # Using Grok-4 as specified
     
     def analyze_code(self, prompt, code_content, analysis_type="general"):
         """Send code for analysis with specific prompt templates"""
